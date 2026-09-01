@@ -6,16 +6,16 @@ on:
     branches: [ main, master ]
 
 jobs:
-  e2e tests:
+  E2e tests:
     timeout-minutes: 60
     runs-on: ubuntu-22.04
-    
+
     steps:
     - name: Get node
       uses: actions/checkout@v4
 
     - name: Install Node 18
-    - uses: actions/setup-node@v4
+      uses: actions/setup-node@v4
       with:
         node-version: 18
 
