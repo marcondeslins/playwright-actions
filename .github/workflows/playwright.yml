@@ -6,7 +6,7 @@ on:
     branches: [ main, master ]
 
 jobs:
-  E2e tests:
+  E2E_tests:
     timeout-minutes: 60
     runs-on: ubuntu-22.04
 
